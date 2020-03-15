@@ -7,7 +7,11 @@ import ReactDOM from 'react-dom'
 // import MartinFamily from './components/MartinFamily'
 // import Family from './components/Family'
 // import Member from './components/Member'
-import ComponentWithFunction from './components/ComponentWithFunction'
+// import ComponentWithFunction from './components/ComponentWithFunction'
+// import Dad from './components/Dad'
+// import ClassComponent from './components/ClassComponent'
+// import Counter from './components/Counter'
+import Hooks from './components/Hooks'
 
 const el = document.getElementById('root')
 
@@ -28,9 +32,17 @@ ReactDOM.render(
     <Family>
       <Member firstName='Andrius' />
     </Family>
-    */}
 
     <ComponentWithFunction />  
 
+    <Dad />
+
+    <ClassComponent value='Hello'/>
+
+    <Counter defaultNumber={0} /> 
+    */}
+
+    <Hooks />
+    
   </div>
 , el)
